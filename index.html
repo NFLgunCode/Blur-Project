@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS BLUR</title>
+	<h2>Update CSS Variables with <span class='h1'>JS</span></h2>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+
+
+<label> SPACING</label> 
+<input type="range" min="10" max="200" id="spc" value= "10" data-sizing= "px" onmousemove="spacing(this.value)">
+<label> BLUR</label>
+<input type="range" min="0" max="20" id="blr" value= "10" data-sizing="px" onmousemove="blurr(this.value)">
+<label> COLOR</label>
+<input type="color" id="clr" onchange="coloring(this.value)">
+
+<div id="tswira"> <img style="border:solid 1px black;" src= "https://data.whicdn.com/images/214499271/large.jpg" id="image"></div>
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
+		
+	
+
+</body>
+</html>
